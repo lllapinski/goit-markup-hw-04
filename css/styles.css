@@ -490,3 +490,38 @@ img {
 .link {
   text-decoration: none;
 }
+/* CUSTOMERS */
+.costumers {
+}
+.container {
+}
+.customers-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.costumers-list {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+}
+.costumers-header {
+  margin-bottom: 72px;
+  margin: 0 auto;
+}
+.list {
+}
+.customers-link {
+}
+.link {
+}
+.customers-link-tag {
+}
+.costummers-items {
+}
