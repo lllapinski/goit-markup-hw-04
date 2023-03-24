@@ -364,8 +364,11 @@ img {
   display: block;
 }
 .footer-content {
+  display: block;
+  width: 1158px;
 }
-
+.fotter-link {
+}
 .footer-social-media {
   color: #ffffff;
 }
