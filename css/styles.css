@@ -72,6 +72,7 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  border: solid 2px coral;
 }
 .head-container {
   display: flex;
@@ -362,9 +363,32 @@ img {
 .footer-container {
   display: block;
 }
+.footer-content {
+}
 .fotter-link {
 }
-
+.footer-social-media {
+  color: #ffffff;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 120px;
+}
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+.footer-soc-item {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
 .fotter-text {
   font-weight: 400;
   font-size: 16px;
