@@ -361,16 +361,16 @@ img {
   padding-bottom: 100px;
 }
 .footer-container {
-  display: block;
+  display: flex;
+  width: 1158px;
 }
 .footer-content {
-  display: block;
-  width: 1158px;
 }
 .fotter-link {
 }
 .footer-social-media {
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-social {
   display: flex;
