@@ -574,8 +574,7 @@ img {
 .list {
 }
 .customers-link {
-  height: 88px;
-  width: calc(100% - 88px / 6);
+  width: calc(100% - 120px / 6);
 }
 .link {
 }
@@ -583,7 +582,6 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 16px 32px;
-
   display: flex;
   justify-content: center;
   align-items: center;
