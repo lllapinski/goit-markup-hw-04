@@ -631,7 +631,7 @@ img {
   fill: var(--hover-color);
   border: 1px solid var(--hover-color);
 }
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -656,7 +656,7 @@ img {
 }
 .close {
   fill: rgba(46, 47, 66, 1);
-} */
+}
 .current {
   width: 100%;
 }
