@@ -111,6 +111,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-color);
   transition: color 250ms linear;
+  position: relative;
 }
 
 .links-nav:hover {
@@ -630,7 +631,7 @@ img {
   fill: var(--hover-color);
   border: 1px solid var(--hover-color);
 }
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -655,4 +656,24 @@ img {
 }
 .close {
   fill: rgba(46, 47, 66, 1);
+} */
+.current {
+  width: 100%;
+}
+.current::before {
+  content: '';
+
+  position: absolute;
+
+  height: 4px;
+  left: 0;
+  top: 44px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+.c-portf::before {
+  width: 67px;
+}
+.c-studio::before {
+  width: 48px;
 }
